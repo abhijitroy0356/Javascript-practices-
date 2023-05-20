@@ -1,0 +1,61 @@
+/* .title{
+    font-size: 50px;
+}
+#er{
+    font-size: 30px;
+    width:fit-content;
+    border: 1px solid;
+}
+#uk{
+    color: red;
+} */
+.main{
+    display:flex;
+    justify-content: center;
+    padding-top:200px;
+    
+}
+#num1,#num2{
+    height: 40px;
+    margin: 20px;
+}
+
+.ex{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.convo{
+    height: 200px;
+    width: 300px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.newbtn{
+    padding: 26px;
+    font-size:20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.startbtn{
+    padding: 20px;
+    font-size:20px;
+    background-color: rgb(212, 161, 122);
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+}
+.til{
+    display: flex;
+    justify-content: center;
+}
+.styl{
+    background-color: yellow;
+    padding: 40px;
+    border-radius: 10px;
+}
