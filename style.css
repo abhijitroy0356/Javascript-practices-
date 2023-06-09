@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(84, 247, 193);
+}
+.main{
+    position: absolute;
+    top:40%;
+    left:41%;
+    margin-top: -50px;
+    margin-left: -50px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.main-child{
+    text-align: center;
+    padding: 30px 120px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.btn{
+    height: 60px;
+    width: 120px;
+    font-size: 20px;
+    margin: 30px;
+    border: none;
+    background-color: rgb(42, 108, 108);
+    color: aliceblue;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: aqua;
+    color: rgb(2, 2, 12);
+    transition: 0.3s;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:40%;
+    left:46.5%;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 50px;
+    background-color: blue;
+    visibility: hidden;
+}
+.open{
+    visibility: visible;
+}
